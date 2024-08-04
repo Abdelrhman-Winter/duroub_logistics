@@ -1,0 +1,133 @@
+.container{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 57px 120px;
+
+    nav{
+      padding-right: 100px;
+      ul{
+        list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+        font-size: 18px;
+        font-weight: 400;
+        li{
+          position: relative;
+          transition: color 0.3s ease; /* Smooth transition */
+
+        }
+        li:before{
+          content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #002B87;
+    position: absolute;
+    bottom: 0;
+        }
+      }
+
+
+      li:hover{
+        color: #002B87;
+      
+      }
+
+      li{
+        position: relative;
+      }
+      li:before{
+        content: '';
+  width: 0%;
+  height: 2px;
+  background-color: #002B87;
+  position: absolute;
+  bottom: 0;
+  transition: width 0.3s ease; 
+
+      }
+    }
+
+
+    li:hover::before {
+      width: 50%;
+    }
+    
+    li:hover {
+      color: #002B87;
+    }
+
+
+    }
+
+
+.languageSwitch{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.toggle {
+  position : relative ;
+  display : inline-block;
+  width : 85px;
+  height : 34px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px solid #94D4FF;
+  display: flex;
+    z-index: 1;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    p {
+      font-weight: bold;
+      z-index: 2;
+  }
+}
+    
+/* After slide changes */
+.toggle:after {
+  content: '';
+  position: absolute;
+  width: 34px;
+  height: 33px;
+  border-radius: 50% 0 0 50%;
+  background-color: #94D4FF;
+  top: 0px; 
+  left: -1px;
+  z-index: 1;
+
+  transition:  all 0.5s ease;
+}
+.toggle::before{
+  content: '';
+  position: absolute;
+
+  border: 16px solid;
+    left: 33px;
+  border-color: transparent transparent transparent #94D4FF;
+  z-index: 1;
+  transition:  all 0.5s ease;
+
+}
+.checkbox { 
+  display : none;
+
+}
+.checkbox:checked + .toggle:after {
+  border-radius:  0 50% 50% 0 ;
+  right: -1px;
+  left: unset;
+}
+
+.checkbox:checked + .toggle:before {
+  right: 33px;
+  left: unset;
+
+  border-color: transparent #94D4FF transparent transparent ;
+}

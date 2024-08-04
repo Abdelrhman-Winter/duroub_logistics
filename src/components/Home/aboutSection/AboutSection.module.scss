@@ -1,0 +1,35 @@
+.about{
+  height: 100vh;
+  margin: 0 120px;
+}
+.text{
+width: 615px;
+margin-top: 100px;
+  h3{
+    font-size: 50px;
+    line-height: 2;
+    }
+    .explore{
+      display: flex;
+    margin-top: 35px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 18px;
+    gap: 10px;
+    width: fit-content;
+
+    }
+    .arrowIcon{
+      border: 1px solid;
+      border-radius: 50%;
+      font-size: 24px;
+      color: #002B87;
+      transition: all .5s ease-in-out ;
+      position: relative;
+      right: 0;
+      
+    }
+    .explore:hover .arrowIcon{
+      right: -10px;
+    }
+}

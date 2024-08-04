@@ -1,0 +1,54 @@
+.landing{
+  height: calc(100vh - 186px)  ;
+
+}
+.backgroundVideo{
+  position: absolute;
+  top: 0;
+  z-index: -2;
+  transform: rotateY(180deg);
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+.filter{
+  background-image: url("/Rectangle 1.png");
+  position: absolute;
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+  top: 0;
+  height: 100vh;
+
+}
+.text{
+  margin: 0 120px ;
+  color: white;
+  top: 330px;
+    position: relative;
+  h2{
+font-size: 71px;
+line-height: 1.2;
+
+  }
+}
+.play{
+  display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;  
+    font-size: large;
+    width: fit-content;
+    margin-top: 20px;
+}
+.arrow{
+  rotate: 90deg;
+  color: #94D4FF;
+  position: relative;
+  right: 0;
+transition: all .5s ease-in-out ;
+}
+.play:hover .arrow{
+  right: -10px;
+}

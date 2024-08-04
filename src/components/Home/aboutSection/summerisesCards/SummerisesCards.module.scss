@@ -1,0 +1,64 @@
+.summerises{
+  position: absolute;
+  right: 0;
+  display: flex;
+  margin-top: 35px;
+}
+.summerisesCard{
+position: relative;
+width: fit-content ;
+
+}
+.imageCard{
+  width: 385px;
+    height: 525px;
+    object-fit: cover;
+
+  }
+
+  .summerises div:first-child  .imageCard {
+    border-radius: 15px 0 0 15px;
+  }
+  
+  .summerises div:first-child .overlay {
+    border-radius: 15px 0 0 15px;
+  }
+  
+
+  .text{
+    position: absolute;
+    top: 359px;
+    left: 32px;
+    color: white;
+    h4{
+      font-size: 38px;
+    }
+    p{
+      font-size: 24px;
+      font-weight: 100;
+    }
+  }
+  .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 50%;
+  }
+  .color1{
+    background: #002B87 ;
+
+  }
+  .color2{
+    background: #0B44AA ;
+
+  }
+  .color3{
+    background: #4964BF ;
+
+  }
+  .color4{
+    background: #3D81D3 ;
+
+  }
