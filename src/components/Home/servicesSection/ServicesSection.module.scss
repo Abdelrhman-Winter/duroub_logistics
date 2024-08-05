@@ -1,0 +1,45 @@
+.service{
+  
+    height: 100vh;
+  
+}
+.text{
+  margin-top: 100px;
+  margin: 0 120px;
+
+  .content{
+        display: flex;
+        justify-content: space-between;
+  }
+    h3{
+      font-size: 50px;
+      line-height: 2;
+      }
+      p{
+        width: 615px;
+      }
+      .explore{
+        display: flex;
+      margin-top: 35px;
+      font-weight: bold;
+      align-items: center;
+      font-size: 18px;
+      gap: 10px;
+      width: fit-content;
+  
+      }
+      .arrowIcon{
+        border: 1px solid;
+        border-radius: 50%;
+        font-size: 24px;
+        color: #002B87;
+        transition: all .5s ease-in-out ;
+        position: relative;
+        right: 0;
+        
+      }
+      .explore:hover .arrowIcon{
+        right: -10px;
+      }
+
+  }
