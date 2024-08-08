@@ -1,0 +1,147 @@
+
+.Background{
+  width: 100%;
+  height: 100%;
+position: relative;
+z-index: 0;
+overflow: hidden;
+img{
+  width: fit-content;
+  position: absolute;
+  overflow: hidden;
+}
+
+} 
+.group21{
+  right: 310px;
+  top: 370px;
+  width: 489px;
+  height: 412px;
+  object-fit: cover;
+  z-index: 1;
+}
+.group22{
+  top: -200px;
+}
+.cities{
+  color: #94D4FF;
+  font-size: 20px;
+  position: relative;
+
+  .riyadhPoint,.dammamPoint,.jeddahPoint,.madinahPoint,.sakakaPoint,.khamisMushiatPoint,.alQassemPoint,.tabukPoint{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  .riyadh,.dammam,.jeddah,.madinah,.sakaka,.khamisMushiat,.alQassem,.tabuk{
+  position: absolute;
+  }
+  //
+  .tabuk{
+    top: 395px;
+    right: 755px;
+  }
+  .tabukPoint{
+    top: 453px;
+    right: 771px;
+    animation: twinkle-2 1.2s infinite;
+
+  }
+//
+  .sakaka{
+    top: 345px;
+    right: 655px;
+  }
+  .sakakaPoint{
+    top: 405px;
+    right: 678px;
+    animation: twinkle-2 1.2s infinite;
+
+  }
+//
+  .madinah{
+    top: 490px;
+    right: 675px;
+
+  }
+  .madinahPoint{
+    top: 552px;
+    right: 703px;
+    animation: twinkle-1 1s infinite;
+
+  }
+//
+  .alQassem{
+    top: 460px;
+    right: 500px;
+  }
+  .alQassemPoint{
+    top: 486px;
+    right: 610px;
+    animation: twinkle-2 1.1s infinite;
+
+  }
+//
+  .dammam{
+    top: 465px;
+    right: 280px;
+  }
+.dammamPoint{
+  top: 522px;
+  right: 345px;
+  animation: twinkle-2 1.1s infinite;
+
+}
+//
+.jeddah{
+  top: 650px;
+  position: absolute;
+  right: 615px;
+
+}
+.jeddahPoint{
+  top: 680px;
+  right: 688px;
+  animation: twinkle-1 1s infinite;
+
+}
+//
+  .riyadh{
+    top: 575px;
+    right: 440px;
+  }
+  .riyadhPoint{
+    top: 635px;
+    right: 483px;
+    animation: twinkle-1 1.1s infinite;
+    
+  }
+ //
+  .khamisMushiat{
+    top: 770px;
+    right: 490px;
+  }
+  .khamisMushiatPoint{
+    top: 758px;
+    right: 553px;
+    animation: twinkle-1 1.1s infinite;
+
+  }
+
+
+}
+@keyframes twinkle-1 {
+  50% {
+    transform: scale(0.3);
+    opacity: 0.3;
+  }
+}
+
+@keyframes twinkle-2 {
+  20% {
+    transform: scale(0.5);
+    opacity: 0.5;
+  }
+}

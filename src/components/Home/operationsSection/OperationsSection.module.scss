@@ -1,0 +1,23 @@
+.operations{
+  height: 100vh;
+  background-color: #002B87;
+  position: relative;
+}
+.text{
+  margin: 0 120px;
+  z-index: 1;
+  position: absolute;
+  top: 35%;
+  h3{
+    font-size: 67px;
+    width: 375px;
+    color: #94D4FF;
+    line-height: 73.7px;
+    }
+    p{
+      width: 710px;
+      font-size: 26px;
+      color: white;
+      margin-top: 15px;
+    }
+}
