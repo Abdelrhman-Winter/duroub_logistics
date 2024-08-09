@@ -1,0 +1,95 @@
+.container{
+  position: relative;
+  margin-top: 50px;
+}
+.partneringImg {
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 500px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  
+}
+
+/* Circle container for custom scroll indicator */
+.scrollIndicator {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 50px; /* Adjust as needed */
+  height: 12px; /* Adjust as needed */
+  justify-content: space-between;
+  transition: all 0.2s ease-in-out;
+
+  &.right {
+    .circle:first-child {
+      transform: translateX(15px);
+      transition: all 0.2s ease-in-out;
+
+    }
+
+    .circle:last-child {
+      transform: translateX(0px);
+      transition: all 0.2s ease-in-out;
+
+    }
+  }
+
+  &.left {
+    .circle:first-child {
+      transform: translateX(30px); /* Width of one circle + gap */
+      transition: all 0.2s ease-in-out;
+
+    }
+
+    .circle:last-child {
+      transform: translateX(-30px);
+      transition: all 0.2s ease-in-out;
+
+    }
+  }
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #a2cfff; /* Dark blue */
+
+  &:nth-child(2) {
+    background-color: #002B87; /* Light blue */
+  }
+}
+
+
+.partners{
+  display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: calc(100% + 440px) ;
+}
+.partner{
+    background: rgb(148, 212, 254, .1);
+    padding: 20px;
+    border-radius: 26px;
+    width: 190px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  img{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 16px;
+  }
+
+}
+
+

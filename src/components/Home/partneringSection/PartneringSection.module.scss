@@ -1,0 +1,19 @@
+.partnering{
+  height: 100vh;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2{
+    font-size: 50px
+  }
+  p{
+    font-size: 18px;
+    width: 700px;
+    text-align: center;
+  }
+}
+
