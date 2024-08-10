@@ -1,0 +1,96 @@
+.contactUs{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  margin: 0 120px;
+  gap: 69px;
+}
+.text{
+  width: 710px;
+  height: 528px;
+  h2{
+    font-size: 50px;
+
+  }
+  p{
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  .info{
+    margin-top: 50px;
+    width: 580px;
+  }
+}
+
+
+.contactUs form {
+  width: 900px;
+  height: 528px;
+  background-color: rgb(148 212 255 / 10%);
+  padding: 60px 52px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+border-radius: 20px;
+}
+
+.userBox {
+  position: relative;
+}
+
+.userBox input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: rgba(0, 43, 135, 0.7);
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 43, 135, 0.7);
+  outline: none;
+  background: transparent;
+  &:focus ~ label,
+  &:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: rgba(0, 43, 135, 0.7);
+    font-size: 12px;
+  }
+}
+.userBox label {
+  position: absolute;
+  top:-20px;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: rgba(0, 43, 135, 0.7);
+  pointer-events: none;
+  transition: .5s;
+   
+}
+
+
+
+
+.send{
+  display: flex;
+font-weight: bold;
+align-items: center;
+font-size: 18px;
+gap: 10px;
+width: fit-content;
+
+}
+.arrowIcon{
+  border: 1px solid;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #002B87;
+  transition: all .5s ease-in-out ;
+  position: relative;
+  right: 0;
+  
+}
+.send:hover .arrowIcon{
+  right: -10px;
+}
