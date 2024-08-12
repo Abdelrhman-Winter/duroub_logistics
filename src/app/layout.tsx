@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
+import Footer from "@/components/footer/Footer";
+import ScrollButton from "@/components/scrollButton/ScrollButton";
 
 const nunito_Sans = Nunito_Sans({
   weight: ["500", "600", "700"],
@@ -24,6 +26,8 @@ export default function RootLayout({
         <Navbar />
 
         {children}
+        <ScrollButton />
+        <Footer />
       </body>
     </html>
   );

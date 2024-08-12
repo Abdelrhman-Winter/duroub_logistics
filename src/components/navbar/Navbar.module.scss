@@ -21,21 +21,11 @@
           transition: color 0.3s ease; /* Smooth transition */
 
         }
-        li:before{
-          content: '';
-    width: 0%;
-    height: 2px;
-    background-color: #002B87;
-    position: absolute;
-    bottom: 0;
-        }
+
       }
 
 
-      li:hover{
-        color: #002B87;
-      
-      }
+
 
       li{
         position: relative;

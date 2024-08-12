@@ -1,0 +1,31 @@
+.scrollButton{
+  display: flex;
+font-weight: bold;
+align-items: center;
+font-size: 18px;
+gap: 10px;
+width: fit-content;
+position: fixed;
+bottom: -100px;
+right: 35px;
+z-index: 99;
+transition: all 1s ease-in-out;
+&.visible {
+  opacity: 1;
+  bottom: 35px;
+
+}
+}
+.arrowIcon{
+  border: 1px solid;
+  border-radius: 50%;
+  font-size: 50px;
+  // color: #002B87;
+  color: rgba(96, 161, 226, 1);
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  right: 0;
+  padding: 10px;
+  z-index: 24;
+  
+}
