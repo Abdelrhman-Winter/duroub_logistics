@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Duroub Logistics 🚚
 
-## Getting Started
+Welcome to the Duroub Logistics project! This application is designed to streamline logistics operations, providing a modern and user-friendly interface. The home page of this project has been meticulously designed in Figma and transformed into code using Next.js.
 
-First, run the development server:
+
+
+## Project Overview 🛠️ 
+
+Duroub Logistics is a logistics management platform designed to simplify and optimize the movement of goods. The home page sets the tone for the application, offering a sleek, responsive, and intuitive user experience.
+
+- **Framework**: Next.js
+- **Styling**: SCSS
+- **Deployment**: Vercel
+
+## Live Demo 🌐
+
+You can view the live version of the Duroub Logistics home page here: [Duroub Logistics](https://duroub-logistics.vercel.app/)
+
+## Design Reference 🎨
+
+The design for this project was created in Figma. You can view the original Figma design here: [Figma Design - Duroub Logistics](https://www.figma.com/design/SgbRpC6cUFPCnM654iSd7D/Duroub-Logistics?node-id=2839-137&t=AeZrKwKbyFZJrGbt-0)
+
+## Getting Started 🚀
+
+To run the project locally, follow these steps:
+
+1. 🧪 Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git@github.com:ex/Duroub Logistics.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. 📂 Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+ cd Duroub Logistics
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. 📦 Install the dependencies:
 
-## Learn More
+```bash
+ npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. ▶️ Start the application:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+ npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. 🌐 Open your browser and visit: http://localhost:3000
 
-## Deploy on Vercel
+Now you can explore the Duroub Logistics home page locally. Enjoy! 🎉
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing 🤝
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you have any suggestions, issues, or ideas for improvements, feel free to open a pull request or submit an issue on the GitHub repository. Let's collaborate and make Duroub Logistics even better! 💪 [GitHub repository](https://github.com/Abdelrhman-Winter). Let's collaborate and make the Duroub Logistics  even better! 🙌
+
+Thank you for using the Duroub Logistics and for your contributions. Together, we can create an exceptional frontend experience! 💫
